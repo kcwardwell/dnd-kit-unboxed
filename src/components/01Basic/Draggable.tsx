@@ -15,7 +15,8 @@ function Draggable() {
       style={style}
       {...listeners}
       {...attributes}
-      className="h-24 w-24 rounded-md bg-blue-500 p-4 text-white"
+      className="h-24 w-24 cursor-grab touch-none rounded-md bg-blue-500 p-4 text-white
+      active:cursor-grabbing dark:bg-blue-600"
     >
       Drag me
     </div>
